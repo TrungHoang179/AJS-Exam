@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="sidebar.component.css">
+</head>
+<body>
+<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+  <ul class="list-unstyled ps-0">
+    <li class="mb-1">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="15,24 32,41    49,24  "/>
+</g>
+</svg>
+      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+        <b>Favorites</b>
+      </button>
+      <div class="collapse show" id="home-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Inbox</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sent Items</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="15,24 32,41    49,24  "/>
+</g>
+</svg>
+      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+        <b>John</b>
+      </button>
+      <div class="collapse" id="dashboard-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Inbox</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Drafts</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Deleted Items</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sent Items</a></li>
+          <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Outbox</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
