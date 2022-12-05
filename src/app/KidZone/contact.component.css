@@ -1,0 +1,82 @@
+.topbar{
+  width: 100%;
+  margin-left: 250px;
+  margin-right: 50px;
+  backface-visibility: hidden;
+}
+.logo{
+  width: 600px;
+  float: left;
+}
+.menu{
+  float: left;
+  margin-top: 50px;
+}
+
+.menu ul li a{
+  color: white;
+  font-weight: bold;
+
+}
+#bg-img {
+  margin-top: -300px;
+  width: 100%;
+}
+#ig{
+  color: coral;
+  margin-left: 42%;
+  font-size: 60px;
+  height: 100px;
+  margin-top: -300px;
+  position: absolute;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+.address{
+  float: left;
+  margin-left: 280px;
+  position: absolute;
+  top: 460px;
+}
+#text2{
+  font-size: 18px;
+}
+.address a{
+  color: red;
+}
+.mess{
+  float: left;
+  margin-left: 750px;
+}
+#usname{
+  border: solid 1px;
+  padding: 10px 10px;
+}
+#usemail{
+  margin-left: 10px;
+  border: solid 1px;
+  padding: 10px 10px;
+}
+#subject{
+  margin-top: 10px;
+  border: solid 1px;
+  padding: 10px 10px;
+}
+textarea{
+  margin-top: 10px;
+  border: solid 1px;
+  padding: 10px 8px;
+}
+button{
+  margin-top: 10px;
+  border-radius: 2px;
+}
+.ggmap{
+  margin-top: 100px;
+}
+*{
+  max-width: 100%;
+}
+

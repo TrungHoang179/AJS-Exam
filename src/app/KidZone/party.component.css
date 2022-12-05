@@ -1,0 +1,107 @@
+.topbar{
+  width: 100%;
+  margin-left: 250px;
+  margin-right: 50px;
+  backface-visibility: hidden;
+}
+.logo{
+  width: 600px;
+  float: left;
+}
+.menu{
+  float: left;
+  margin-top: 50px;
+}
+
+.menu ul li a{
+  color: white;
+  font-weight: bold;
+
+}
+#bg-img {
+  margin-top: -300px;
+  width: 100%;
+}
+#ig{
+  color: coral;
+  margin-top: -300px;
+  margin-left: 700px;
+  font-size: 60px;
+  position: absolute;
+}
+.pp{
+  width: 30%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+
+}
+.photos{
+  width: 40%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 200px;
+
+}
+#p0:hover{
+  transform: scale(1.1);
+}
+#p1{
+  margin-left: 30px;
+}
+#p1:hover{
+  transform: scale(1.1);
+}
+#p2{
+  margin-left: 30px;
+}
+#p2:hover{
+  transform: scale(1.1);
+}
+#p3{
+  margin-top: 30px;
+}
+#p3:hover{
+  transform: scale(1.1);
+}
+#p4{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#p4:hover{
+  transform: scale(1.1);
+}
+#p5{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#p5:hover{
+  transform: scale(1.1);
+}
+#p6{
+  margin-top: 30px;
+}
+#p6:hover{
+  transform: scale(1.1);
+}
+#p7{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#p7:hover{
+  transform: scale(1.1);
+}
+#p8{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#p8:hover{
+  transform: scale(1.1);
+}
+#bp{
+  margin-left: 41%;
+  margin-top: -50px;
+}
+*{
+  max-width: 100%;
+}

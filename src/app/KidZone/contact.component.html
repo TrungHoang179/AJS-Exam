@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<header class="section header">
+  <div class="topbar">
+    <div class="logo">
+      <a id="logo" href="#">
+        <img  src="http://kidzzone.my/wp-content/uploads/2017/11/logo.png">
+      </a>
+    </div>
+    <div class="menu">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a [routerLink]="['home']" routerLinkActive="active" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a [routerLink]="['about']" routerLinkActive="active" class="nav-link">About</a></li>
+        <li class="nav-item"><a [routerLink]="['gallery']" routerLinkActive="active" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a [routerLink]="['party']" routerLinkActive="active" class="nav-link">Party</a></li>
+        <li class="nav-item"><a [routerLink]="['offer']" routerLinkActive="active" class="nav-link">Offer & Pricing</a></li>
+        <li class="nav-item"><a [routerLink]="['contact']" routerLinkActive="active" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <img id="bg-img" src="https://kidzzone.my/wp-content/uploads/revslider/aquapark/home_aquapark_sliderbg.jpg">
+  <h1 id="ig">Contact</h1>
+</header>
+<section class="section main">
+  <div class="container">
+    <div class="address">
+      <h2>Kidz Zone</h2>
+      <p id="text1">6th Floor, Melawati Mall, <br>355, Jalan Bandar Melawati ,Pusat Bandar Melawati,
+        <br>
+        53100 Kuala Lumpur.</p>
+      <p id="text2">Contact us: <a href="#">+603 4161 5505</a>
+        <br>
+        Write us: <a href="mailto:info@kidzzone.my">info@kidzzone.my</a>
+      </p>
+    </div>
+    <div class="mess">
+      <h3>Write us a message</h3>
+      <p>Reach out to us and we'll respond as soon as we can</p>
+      <form class="kz">
+        <input type="text" id="usname" name="usname" placeholder="Your name" size="25" required>
+        <input type="text" id="usemail" name="usmail" placeholder="Your e-mail" size="25" required><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject" size="59"><br>
+        <textarea name="message" cols="62" rows="3" placeholder="Message"></textarea><br>
+        <button type="submit" class="btn btn-outline-danger">Send a message</button>
+      </form>
+    </div>
+  </div>
+  <div class="ggmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31094.849386829013!2d80.1845032!3d13.0448255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52673317b946c1%3A0xd1e061781c33fe62!2skidz%20zone!5e0!3m2!1svi!2s!4v1669794595077!5m2!1svi!2s"
+            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe>
+  </div>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>

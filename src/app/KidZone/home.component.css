@@ -1,0 +1,69 @@
+.topbar{
+  width: 100%;
+  margin-left: 250px;
+  margin-right: 50px;
+  backface-visibility: hidden;
+}
+.logo{
+  width: 600px;
+  float: left;
+}
+.menu{
+  float: left;
+  margin-top: 50px;
+}
+
+.menu ul li a{
+  color: white;
+  font-weight: bold;
+
+}
+#bg-img{
+  margin-top: -155px;
+  width: 100%;
+}
+#bg-img1{
+  margin-left: 450px;
+  margin-top: -350px;
+}
+#bg-img2{
+  margin-left: 800px;
+  margin-top: -600px;
+}
+.bg-text{
+  margin-left: 250px;
+  margin-top: -500px;
+  width: 35%;
+}
+#bg-text1{
+  color: coral;
+}
+#bg-text2{
+  color: mediumpurple;
+}
+#bg-text3{
+  font-size: 20px;
+}
+#wave2{
+  margin-top: 600px;
+}
+.footer-btt a button{
+  border-radius: 2px;
+}
+.bg-footer{
+  background-color: #ffdc3b;
+}
+.red{
+  color: red;
+}
+.ft-text{
+  margin-left: 30%;
+}
+.footer-btt{
+  margin-left: 45%;
+}
+*{
+  max-width: 100%;
+}
+
+

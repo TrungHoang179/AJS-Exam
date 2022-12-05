@@ -1,0 +1,57 @@
+.topbar{
+  width: 100%;
+  margin-left: 250px;
+  margin-right: 50px;
+  backface-visibility: hidden;
+}
+.logo{
+  width: 600px;
+  float: left;
+}
+.menu{
+  float: left;
+  margin-top: 50px;
+}
+
+.menu ul li a{
+  color: white;
+  font-weight: bold;
+
+}
+#bg-img {
+  margin-top: -300px;
+  width: 100%;
+}
+#ig{
+  color: coral;
+  margin-top: -300px;
+  margin-left: 600px;
+  font-size: 60px;
+  position: absolute;
+}
+.bg-footer{
+  background-color: #ffdc3b;
+  height: 180px;
+}
+.red{
+  color: red;
+}
+.ft-text{
+  margin-left: 39%;
+
+}
+.footer-btt{
+  margin-left: 45%;
+}
+#wave2{
+  margin-top: 600px;
+}
+.footer-btt a button{
+  border-radius: 2px;
+}
+.ft-text1{
+  margin-left: 20%;
+}
+*{
+  max-width: 100%;
+}
